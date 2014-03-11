@@ -16,7 +16,9 @@ public class Dreptunghi extends FormaGeometrica{
         super(id);
         System.out.println("Am creat un dreptunghi");
     }
-
+    /**
+     * Functia polimorfica
+     */
     @Override
     public void Desenare() {
         System.out.println("Am desenat un dreptunghi - " + id);
