@@ -5,7 +5,7 @@ Programe la cursul "Tehnologii si platforme Java pentru aplicatii distribuite"
 
 1. HelloGit - este celebra aplicatie "Hello World" scrisa in Java. Git este sistemul de control al versiunii 
 pe care noi il folosim deocamdata doar pentru distribuirea proiectelor. 
-Pe masura ce vom adauga noi proiecte in acest repository se va completa si aceste README.
+Pe masura ce vom adauga noi proiecte in acest repository se va completa si acest README.
 
 2. ContBancar - este o aplicatie in care este exemplificat principiul incapsularii. Datele si operatiile care
 se efectueaza asupra acelor date sunt puse intr-o "capsula" care este clasa. De asemenea tot in acest proiect 
