@@ -28,3 +28,4 @@ determina apleul metodei din clasa derivata.
 Pe scurt este introdus si conceptul de inerfata. Cuvantul cheie folosit la implementarea unei interfete de catre o  clasa
 este "implements2". O clasa poate avea o singura clasa de baza dar poate implementa oricate interfete. 
 
+4. DataCalendaristica - sunt exemplificate mai multe aspecte de programare in Java: supraincarcarea metodei constructor (crearea mai multor constructori intr-o clasa pentru a putea initializa o instanta in mai multe moduri), crearea unui constructor de copiere, suprascrierea unor metode din clasa Object (toString, equals), implementarea interfetei generice IComparable<T>, 
