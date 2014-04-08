@@ -34,4 +34,6 @@ este "implements2". O clasa poate avea o singura clasa de baza dar poate impleme
 
 6. Math - este exemplificat conceptul de functie cu numar variabil de argumente. Este creata o clasa "Cerc" pentru care sunt definite cateva metode: Aria, Perimetrul. Un cerc este definit prin doua puncte x,y si prin raza. Se foloseste constanta "PI" din clasa java.lang.Math.  Este suprascrisa metoda toString pentru clasa Cerc prin care se obtine o reprezentare textuala a unui cerc de forma [(x, y) - raza]. S-au discutat si alte metode ale clasei java.lang.Math. 
 
+7. Time - este creata o clasa MyTime care are trei membri ora/minut/secunda. Sunt creati mai multi constructori ce permit initalizarea unui obiect in mai multe moduri. Este exemplificat modul in care un constructor poate apela explicit altul prin intermediul cuvantului cheie this. Este folosit si un constructor care primeste ca argument un String de forma "hh:mm:ss" si care extrage cele trei componente numerice din acest string. Sunt create doua metode AddHours() si AddMinutes() care creeaza noi obiecte de tip MyTime cu ora/minutul modificate. Tema de casa este implementarea operatiilor de comparare.
+
 
