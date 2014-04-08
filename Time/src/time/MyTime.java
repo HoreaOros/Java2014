@@ -1,0 +1,62 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates;
+ * and open the template in the editor.
+ */
+
+package time;
+
+/**
+ *
+ * @author Horea
+ */
+class MyTime {
+    private int ora, minut, secunda;
+    public MyTime(int ora, int minut, int secunda) {
+        this.ora = ora;
+        this.minut = minut;
+        this.secunda = secunda;
+    }
+
+    public MyTime(int ora, int minut) {
+        this(ora, minut, 0);
+    }
+    
+    public MyTime(int ora) {
+        this(ora, 0);
+    }
+    
+    public MyTime() {
+        this(0);
+    }
+    public MyTime(String s) {
+        String[] t = s.split(":");
+        ora = Integer.valueOf(t[0]);
+        minut = Integer.valueOf(t[1]);
+        secunda  = Integer.valueOf(t[2]);
+    }
+    @Override
+    public String toString() {
+        return String.format("%d:%02d:%02d", ora, minut, secunda);
+    }
+
+    public MyTime AddHours(int h) {
+        MyTime t = new MyTime(ora + h, minut, secunda);
+
+        return t;
+    }
+
+    public MyTime AddMinutes(int m) {
+        MyTime t = new MyTime(ora, minut, secunda);
+        int r = 0;
+        
+        r = (t.minut + m) / 60;
+        t.minut = (t.minut + m) % 60;
+        
+        
+        if(r == 0)
+            return t;
+        else 
+            return t.AddHours(r);
+    }
+}
