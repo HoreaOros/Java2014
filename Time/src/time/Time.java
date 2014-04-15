@@ -19,7 +19,7 @@ public class Time {
         // TODO code application logic here
         MyTime t1 = new MyTime(14, 53, 22);
         MyTime t2 = new MyTime(14, 53);
-        MyTime t3 = new MyTime(14, 3);
+        MyTime t3 = new MyTime(14);
         MyTime t4 = new MyTime();
         MyTime t5 = new MyTime("14:53:22");
         
@@ -40,5 +40,4 @@ public class Time {
         boolean b2 = t1.isGreaterThan(t2);
         boolean b3 = t1.isEqual(t2);
     }
-  
 }
